@@ -1,0 +1,330 @@
+body {
+	background-color: #fff;
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font: #777;
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	border-color:#ddd;
+
+
+}
+a {
+	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777;
+	text-decoration: none;
+}
+h1{
+	font-family:"Georgia", Times, Times New Roman,serif;
+	border-color:#ccc;
+	font-size: 24px;
+}
+hr{
+	margin: 0em 1em;
+}
+/*NameHeader formats the area with my name */
+#NameHeader {
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 8px;
+	margin-left: 20px;
+	float: left;
+}
+
+/* Navigation formats the area with the links
+on the top of the page */
+#navigation {
+	float: right;
+	margin-right: 50px;
+	padding: 0px 15px;
+}
+
+#navigation ul li { display: inline; }
+
+/* Controls the font color for the names of
+the page and connect with me */
+.headings2 {
+
+	color: #4aaaa5;
+	align-content: center;
+}
+.topLinks {
+	padding: 0px 15px;
+}
+
+/*Below is the main container for both the main
+content and the contact us sidebar */
+#mainContainer {
+	clear: both;  
+	width: auto;
+	height: 1000px;
+	border-top: 2px solid gray;
+	background-image: url("../images/pinkdust.png");
+    background-repeat: repeat;
+ 
+}
+
+/*Used in the about me section to float the 
+image to the left of the paragraph. */
+#imageFloat {
+	float: left;
+	padding-right: 5px;
+    width: 50%;
+    height: auto;
+}
+
+/*controls and sizes the images 
+in the connect with me sidebar*/
+.connectImages {
+	padding: 0;
+	height: 70px;
+	width: 70px;
+}
+/*controls the images in the portfolio 
+section*/
+#galleryImages {
+	margin: 10px;
+	height: 275px;
+	width: 275px;
+}
+
+h2 { 
+   position: absolute; 
+   top: 150px; 
+   left: 0; 
+   width: 100%; 
+   color: #ffffff;
+   background-color: #4aaaa5;
+   display: inline-block;
+}
+/*Below is the code for the container that 
+holds the main content*/
+#mainContent {
+	float: left;
+	background-color: #fff;
+	border: 2px;
+}
+/*Below is the code for the container that 
+holds the images to connect with*/
+#connectWith {
+	float: right;
+	background-color: #fff;
+    border: 2px;
+}
+/*the container that holds the images for social media*/
+#imageContainer{
+	margin: auto;
+	text-align: center;
+}
+/*controls the size of the message section in contact me*/
+#message {
+	width: 375px;
+	height: 200px;
+}
+/*below is the code for the images in the portfolio
+section */
+.image-wrapper {
+    position: relative;
+    padding: 10px;
+    float: left;
+}
+/*below is the code for the text overlaying images 
+on the portfolio page*/
+.image-wrapper p {
+    position: absolute;
+    top: 180px;
+    width: 275px;
+    background-color: #4aaaa5;
+    color: #FFF;
+    padding: 10px 0px;
+    text-align: center;
+}
+/* Code for the footer */
+.footer{
+	clear: both;
+	background-color:#666;
+	padding: 30px;
+	margin: 0 auto;
+	color: #fff;
+	border-top: 4px solid #4aaaa5;
+	text-align: center;
+	font-size: 12px;
+}
+
+@media screen and (min-device-width: 981px) {
+    #mainContainer {
+		width: 650px;
+		margin-left: 10px;
+		padding: 5px;
+		float: left;
+		display: inline-block;
+    }
+    #connectWith{]	
+		width: 270px;
+		float:right;
+		margin: 0px 10px;
+    	width: 40%;
+    	padding: 5%;
+		display: inline-block;
+    }
+	/*controls and sizes the images 
+	in the connect with me sidebar*/
+	.connectImages {
+		padding: 0;
+		height: 70px;
+		width: 70px;
+	}
+	/*controls the images in the portfolio 
+	section*/
+	#galleryImages {
+		margin: 10px;
+		height: 275px;
+		width: 275px;
+	}
+	/*below is the code for the text overlaying images 
+	on the portfolio page*/
+	.image-wrapper p {
+    	position: absolute;
+    	top: 70px;
+    	width: 125px;
+}
+}@media screen and (max-width: 980px) {
+    body {
+        font-size: 1vw;
+        width: 100%;
+    }
+    #mainContainer {
+    	width: 40%;
+    	padding: 5%;
+		float: left;
+	display: inline-block;
+    }
+    #connectWith{
+    	width: 40%;
+    	padding: 5%;
+		float:right;
+	display: inline-block;
+    }
+    h1 {
+    	font-size: 1.5vw;
+    }
+	/*controls and sizes the images 
+	in the connect with me sidebar*/
+	.connectImages {
+		padding: 0;
+		height: 50px;
+		width: 50px;
+	}
+	/*controls the images in the portfolio 
+	section*/
+	#galleryImages {
+		margin: 10px;
+		height: 175px;
+		width: 175px;
+	}
+	/*below is the code for the text overlaying images 
+	on the portfolio page*/
+	.image-wrapper p {
+    	position: absolute;
+    	top: 120px;
+    	width: 150px;
+}
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 2vw;
+        width: 100%;
+    }
+        #mainContainer {
+    	width: 80%;
+    	padding: 10%;
+    }
+    #connectWith{
+    	width: 80%;
+    	padding: 10%;
+    }
+    h1 {
+    	font-size: 4vw;
+    }
+	/*controls and sizes the images 
+	in the connect with me sidebar*/
+	.connectImages {
+		padding: 0;
+		height: 35px;
+		width: 35px;
+	}
+	/*controls the images in the portfolio 
+	section*/
+	#galleryImages {
+		margin: 10px;
+		height: 175px;
+		width: 175px;
+	}
+	/*below is the code for the text overlaying images 
+	on the portfolio page*/
+	.image-wrapper p {
+    	position: absolute;
+    	top: 65px;
+    	width: 125px;
+	}
+	/*Used in the about me section to float the 
+	image to the left of the paragraph. */
+	#imageFloat {
+    	width: 175px;
+    	height: 150px;
+	}
+}
+@media screen and (max-width: 480px) {
+    body {
+        font-size: 2.5vw;
+        width: 100%;
+    }
+    
+    #mainContainer {
+    	width: 80%;
+    	padding: 10%;
+    	margin: 0px;
+    }
+    #connectWith{
+    	width: 80%;
+    	padding: 10%;
+    	margin: 0px;
+    }
+    h1 {
+    	font-size: 4vw;
+    }
+	/*controls and sizes the images 
+	in the connect with me sidebar*/
+	.connectImages {
+		padding: 0px;
+		height: 35px;
+		width: 35px;
+	}
+	/*controls the images in the portfolio 
+	section*/
+	#galleryImages {
+		margin: 10px;
+		height: 75px;
+		width: 75px;
+	}
+	/*below is the code for the text overlaying images 
+	on the portfolio page*/
+	.image-wrapper p {
+    	position: absolute;
+    	top: 75px;
+    	width: 125px;
+}
+	/*Used in the about me section to float the 
+	image to the left of the paragraph. */
+	#imageFloat {
+    	width: 110px;
+    	height: 95px;
+	}
+	/*NameHeader formats the area with my name */
+	#NameHeader {
+		width: 100%;
+		margin: 0px;
+		padding: 0px;
+		text-align: center;
+	}
+
